@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text classifier</title>
+</head>
+<body>
+  <div>
+    <h1>Enter the text you want to get the sentiment of.</h1>
+
+    <form action="{{url_for('predict')}}" method="POST">
+      <input type="text" id="sentence" name="sentence" placeholder="sentence" required="required">
+      <button type="submit">Predict sentiment</button>
+    </form>
+
+  </div>
+</body>
+</html>
