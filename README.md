@@ -2,4 +2,4 @@
  A sentiment classification model with BERT and LSTM models and simple flask app on top of it with Docker file for deployment as container.
  
  To run the flask app:
- python app.py
+ python src/app.py
